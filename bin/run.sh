@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPT_PATH="/workspaces/py4spice/circuits/sec_1_04_04_lin_reg/python"
+SCRIPT_PATH="/workspaces/example_py4spice_01/circuits/sec_1_04_04_lin_reg/python"
 SCRIPT_NAME="sec_1_04_04.py"
 
 # Construct the full command

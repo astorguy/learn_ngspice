@@ -1,6 +1,8 @@
 import tomllib
 from pathlib import Path
 
+import py4spice as spi
+
 CONFIG_FILENAME = Path("/workspaces/example_py4spice_01/circuits/config.toml")
 PROJECT_SECTION = "SEC_1_04_04"
 
@@ -19,11 +21,11 @@ class Ky:
     PROJ_PATH_STR = "PROJ_PATH_STR"
 
     # Keys for the paths_dict
-    # NGSPICE_EXE = "ngspice_exe"
-    # PROJ_PATH = "proj_path"
-    # NETLISTS_PATH = "netlists_path"
-    # RESULTS_PATH = "results_path"
-    # SIM_TRANSCRIPT_FILENAME = "sim_transcript_filename"
+    NGSPICE_EXE = "ngspice_exe"
+    PROJ_PATH = "proj_path"
+    NETLISTS_PATH = "netlists_path"
+    RESULTS_PATH = "results_path"
+    SIM_TRANSCRIPT_FILENAME = "sim_transcript_filename"
 
     # # Keys for the netlists_dict
     # BLANKLINE = "blankline"
@@ -94,6 +96,18 @@ def initialize() -> None:
     if sim_tran_filename.exists():  # delete and recreate. this makes sure it's empty
         sim_tran_filename.unlink()
     sim_tran_filename.touch()
+
+    # create paths dictionary
+    paths_dict = {
+        Ky.NGSPICE_EXE: ngspice_exe,
+        Ky.PROJ_PATH: proj_path,
+        Ky.NETLISTS_PATH: netlists_path,
+        Ky.RESULTS_PATH: results_path,
+        Ky.SIM_TRANSCRIPT_FILENAME: sim_tran_filename,
+    }
+
+    nets_path: Path = paths_dict[Ky.NETLISTS_PATH]  # make shorter alias
+    netlists_dict: dict[str, spi.Netlist] = {}  # create empty netlist dictionary
 
 
 def main() -> None:

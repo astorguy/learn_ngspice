@@ -15,7 +15,7 @@ Since 1972, analog simulation of electrical circuits has been dominated by Spice
 
 Ngspice is challenging to use directly. The GUI provided is not well-maintained and best avoided. Though Ngspice can be used interactively in a terminal session, it works best as a batch process, or by using the API.
 
-In batch mode, the input primary input to Ngspice is a *netlist*. In most cases, the *netlist* contains all the input needed to run the simulation, including:
+In batch mode, the primary input to Ngspice is a *netlist*. In most cases, the *netlist* contains all the input needed to run the simulation, including:
 - Component values and interconnections
 - Stimulus
 - Analyses to execute
@@ -50,3 +50,4 @@ py4spice is installed in the customary way for a PyPI package.
 ```bash
 pip install py4spice
 ```
+

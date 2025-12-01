@@ -1,5 +1,6 @@
-# Example Python script using py4spice package
-A linear power supply circuit simulated with Ngspice, utilizing the py4spice package. The example circuit is from *Switch-Mode Power Supplies: Spice Simulations and Practical Design, 2nd Edition* by Christophe P. Basso. It uses example 1.4.4, theoretical linear regulator. The python script sets up and launches Ngspice simulations, converts the results to numpy arrays, performs post-simulation calculations, and creates matplotlib plots.
+# Learn Ngspice with Python
+## Why Ngspice
+Since 1972, analog simulation of electrical circuits has been dominated by Spice simulation. Several commercial spawned from original Spice are in wide use today ([HSPICE](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primesim-hspice.html), [Spectre](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-x-simulator.html), [QSPICE](https://www.qorvo.com/design-hub/design-tools/interactive/qspice)). [Ngspice](https://ngspice.sourceforge.io/) is the only FOSS (Free and Open-Source Software) version available today. Understanding Ngspice will give you a solid understanding of Spice-level circuit simulation.
 
 ## Cloning the Repository
 This respository can be cloned and run on a local computer. Ngspice and the py4spice package must be installed.

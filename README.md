@@ -22,7 +22,7 @@ In batch mode, the primary input to Ngspice is a *netlist*. In most cases, the *
 - Output formatting
 - Variables
 
-Creating a netlist is complicated and error-prone. Schematic capture tools are invaluable, especially for component connectivity.
+Creating a *netlist* is complicated and error-prone. Schematic capture tools are invaluable, especially for component connectivity.
 
 ## Learning Ngspice through examples
 As mentioned, there are several ways to access Ngspice. Our method is to use Python scripts. To facilitate, we will use the [py4spice](https://github.com/astorguy/py4spice) module. There are multiple examples showing increasing levels of advancing application.
@@ -50,4 +50,5 @@ py4spice is installed in the customary way for a PyPI package.
 ```bash
 pip install py4spice
 ```
+
 

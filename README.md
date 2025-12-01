@@ -27,7 +27,7 @@ Creating a *netlist* is complicated and error-prone. Schematic capture tools are
 ## Learning Ngspice through examples
 As mentioned, there are several ways to access Ngspice. Our method is to use Python scripts. To facilitate, we will use the [py4spice](https://github.com/astorguy/py4spice) module. There are multiple examples showing increasing levels of advancing application.
 
-We'll be using Jupyter Notebooks as an effective way to present a tutorial.
+We'll be using Jupyter Notebooks as an effective way to present tutorials.
 
 We will use [Kicad](https://www.kicad.org/) schematic capture to generate the netlist for the DUT (design under test).
 
@@ -50,5 +50,6 @@ py4spice is installed in the customary way for a PyPI package.
 ```bash
 pip install py4spice
 ```
+
 
 

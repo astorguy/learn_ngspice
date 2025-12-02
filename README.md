@@ -1,7 +1,7 @@
 # Learn Ngspice with Python
 ## Why Ngspice?
 ### Spice is the standard for analog simulation
-Since 1972, analog simulation of electrical circuits has been dominated by Spice simulation. Several commercial programs in wide use today have been spawned from original Spice ([HSPICE](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primesim-hspice.html), [Spectre](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-x-simulator.html), [QSPICE](https://www.qorvo.com/design-hub/design-tools/interactive/qspice)).
+Since 1972, analog simulation of electrical circuits has been dominated by Spice. Several commercial programs in wide use today have been spawned from original Spice ([HSPICE](https://www.synopsys.com/implementation-and-signoff/ams-simulation/primesim-hspice.html), [Spectre](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-simulation/spectre-x-simulator.html), [QSPICE](https://www.qorvo.com/design-hub/design-tools/interactive/qspice)).
 
 [Ngspice](https://ngspice.sourceforge.io/) is the only FOSS (Free and Open-Source Software) version available today. Understanding Ngspice gives you a fundemental understanding of Spice-level circuit simulation. Further, using Ngspice with Python gives you an endless set of tools enabling optimization, statistical analysis, and other advanced tools for thorough analysis of your circuit design.
 
@@ -50,6 +50,7 @@ py4spice is installed in the customary way for a PyPI package.
 ```bash
 pip install py4spice
 ```
+
 
 
 

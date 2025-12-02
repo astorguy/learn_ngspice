@@ -23,11 +23,11 @@ b1 out 0 v = {a * ((v(in1) * k1) + (v(in2) * k2))}
 .ends sum
 
 .control
-* timestamp: thu nov 27 02:22:05 2025
+* timestamp: tue dec  2 07:05:16 2025
 set wr_singlescale  $ makes one x-axis for wrdata
 set wr_vecnames     $ puts names at top of columns
 tran 1e-9 20e-6
-wrdata /workspaces/example_py4spice_01/circuits/sec_1_04_04_lin_reg/sim_results/tr1.txt all
+wrdata /workspaces/learn_ngspice/examples/sec_1_04_04_lin_reg/sim_results/tr1.txt all
 quit
 .endc
 .end

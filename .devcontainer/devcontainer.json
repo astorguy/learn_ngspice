@@ -2,13 +2,6 @@
   "name": "Python 3.14 Jupyter Notebook",
   "image": "mcr.microsoft.com/devcontainers/python:3.14-trixie",
   
-  "features": {
-    "ghcr.io/devcontainers/features/common-utils:2": {
-      "configureZshAsDefaultShell": true,
-      "ZSH_THEME": "agnoster"
-    }
-  },
-  
   "containerEnv": {
     "PYTHON_JIT": "1"
   },

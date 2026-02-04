@@ -1,39 +1,35 @@
 {
-	"name": "trixe_python3_12_ngspice",
-	"build": {
-		"dockerfile": "Dockerfile",
-		"args": {
-			"PROJECT_ROOT": "/workspaces/${localWorkspaceFolderBasename}" // <-- Overrides the default
-		}
-	},
+  "name": "Python 3.14 Jupyter Notebook",
+  "image": "mcr.microsoft.com/devcontainers/python:3.14-trixie",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "configureZshAsDefaultShell": true,
+      "ZSH_THEME": "agnoster"
+    }
+  },
+  
+  "containerEnv": {
+    "PYTHON_JIT": "1"
+  },
 
-	// this is needed for uv to copy files instead of using hard links (avoid warning message)
-	"remoteEnv": {
-		"UV_LINK_MODE": "copy"
-	},
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "python.defaultInterpreterPath": "/usr/local/bin/python",
+        "python.languageServer": "Pylance",
+        "notebook.defaultFormatter": "ms-python.black-formatter"
+      },
+      "extensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance",
+        "xuanli.spice"
+      ]
+    }
+  },
 
-	"postCreateCommand": "${containerWorkspaceFolder}/.devcontainer/postCreateCommand.sh",
+  "postCreateCommand": "pip3 install --user --upgrade pip && pip3 install --user ipykernel notebook matplotlib",
 
-	"remoteUser": "vscode",
-
-	"customizations": {
-		"codespaces": {
-			"openFiles": [] // <-- Files to open automatically on Codespaces startup
-		},
-
-		"vscode": {
-			"settings": {
-				"workbench.colorTheme": "One Dark Pro"
-			},
-			"extensions": [
-				"ms-python.python",
-				"ms-toolsai.jupyter",
-				"ms-toolsai.vscode-jupyter-cell-tags",
-				"ms-toolsai.jupyter-keymap",
-				"ms-toolsai.jupyter-renderers",
-				"xuanli.spice",
-				"zhuangtongfa.Material-Theme"
-			]
-		}
-	}
+  "remoteUser": "vscode"
 }

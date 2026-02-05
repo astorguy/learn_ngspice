@@ -1,11 +1,10 @@
 # Learn Ngspice
+Learning Ngspice is a difficult endeavor. The commands and syntax are bewildering. You can master Ngspice with the help of Python. We have created full-functioning notebooks that can be used with Jupyter or Google Colabs.
 ## Ngspice
 [Ngspice](https://ngspice.sourceforge.io/) is an open-source circuit simulator for exploring and validating electronic designs. Experiment with design alternatives, optimize operation, and understand how operation changes under real-world conditions.
 ## Google Colabs
 [Google Colab](https://colab.research.google.com/)
 is a cloud-based notebook environment for writing, running, and sharing code. Prototype ideas quickly, execute computations without local setup, and collaborate through live notebooks that combine code, results, and documentation.
-
-*Note:* It is likely that these notebooks will also execute in Jupyter, but have not been tested.
 ## py4spice
 Interaction with Ngspice from the Colab notebook is faciliated by the [py4spice](https://pypi.org/project/py4spice/) Python package available on [PyPI](https://pypi.org/).
 ## Usage

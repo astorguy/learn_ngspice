@@ -1,5 +1,5 @@
 # Learn Ngspice
-Learning Ngspice is a difficult endeavor. The commands and syntax are bewildering. You can master Ngspice with the help of Python. We have created full-functioning notebooks that can be used with Google Colabs or Jupyter.
+Learning Ngspice is a difficult endeavor, with bewildering commands and syntax. You can master Ngspice with the help of Python. We have created full-functioning notebooks that can be used with Google Colabs or Jupyter.
 ## Ngspice
 [Ngspice](https://ngspice.sourceforge.io/) is an open-source circuit simulator for exploring and validating electronic designs. Experiment with design alternatives, optimize operation, and understand how operation changes under real-world conditions.
 ## Google Colabs
@@ -15,3 +15,4 @@ A Google account is necessary to run Google Colabs. The easiest way to run these
 | [divider.ipynb](https://github.com/astorguy/ngspice-colabs/blob/main/notebooks/divider.ipynb) | Simple resistor divider| Ngspice introduction, py4spice introduction, condensed output |
 
 | [rlc_widgets.ipynb](https://github.com/astorguy/ngspice-colabs/blob/main/notebooks/rlc_widgets.ipynb)| Parallel RLC | plotting, Jupyter widgets, interactive, simulation in loop |
+

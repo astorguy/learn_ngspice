@@ -15,12 +15,15 @@ There are three ways to use these run these notebooks.
  ***[Codespace](https://github.com/features/codespaces):*** Notebooks can be launched directly in Github using Codespaces.
 
 ***[Jupyter](https://jupyter.org/):*** Notebooks can be download and opened in JupyterLab.
-
+## Examples
+It is best to go through the example notebooks in the order below, as each one introduces new concepts. [divider.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/divider/divider.ipynb) has more detailed explanations. Subsequent notebooks, assume you know know the concepts introduced in 
+[divider.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/divider/divider.ipynb).
 
 | Example | Description | Features |
 |---------|-------------|----------|
 | [divider.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/divider/divider.ipynb) | Simple resistor divider| Ngspice introduction, py4spice introduction, condensed output |
 | [rlc.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/rlc/rlc.ipynb)| Parallel RLC | plotting introduction |
+
 
 
 

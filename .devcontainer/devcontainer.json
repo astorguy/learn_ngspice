@@ -9,6 +9,8 @@
   "customizations": {
     "vscode": {
       "settings": {
+        "workbench.editor.enablePreview": false,
+        "workbench.editor.enablePreviewFromQuickOpen": false,
         "python.defaultInterpreterPath": "/usr/local/bin/python",
         "python.languageServer": "Pylance",
         "notebook.defaultFormatter": "ms-python.black-formatter"

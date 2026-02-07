@@ -19,7 +19,8 @@ There are three ways to use these run these notebooks.
 
 | Example | Description | Features |
 |---------|-------------|----------|
-| [divider.ipynb](https://github.com/astorguy/ngspice-colabs/blob/main/notebooks/divider/divider.ipynb) | Simple resistor divider| Ngspice introduction, py4spice introduction, condensed output |
-| [rlc.ipynb](https://github.com/astorguy/ngspice-colabs/blob/main/notebooks/rlc/rlc.ipynb)| Parallel RLC | plotting |
+| [divider.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/divider/divider.ipynb) | Simple resistor divider| Ngspice introduction, py4spice introduction, condensed output |
+| [rlc.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/rlc/rlc.ipynb)| Parallel RLC | plotting |
+
 
 

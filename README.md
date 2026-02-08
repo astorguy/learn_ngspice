@@ -23,6 +23,7 @@ It is best to go through the example notebooks in the order below, as each one i
 |---------|-------------|----------|
 | [divider.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/divider/divider.ipynb) | Simple resistor divider| Ngspice introduction, py4spice introduction, condensed output |
 | [rlc.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/rlc/rlc.ipynb)| Parallel RLC | plotting introduction |
+| [rlc_widgets.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/rlc_widgets/rlc_widgets.ipynb) | Interactive parallel RLC | slider widgets, interactive plot, looping Nspice simulation |
 
 
 

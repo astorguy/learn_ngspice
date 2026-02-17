@@ -5,6 +5,8 @@ Learning Ngspice is a difficult endeavor, with bewildering commands and syntax. 
 ## Google Colabs
 [Google Colab](https://colab.research.google.com/)
 is a cloud-based notebook environment for writing, running, and sharing code. Prototype ideas quickly, execute computations without local setup, and collaborate through live notebooks that combine code, results, and documentation.
+## PyOPUS
+[PyOPUS](https://fides.fe.uni-lj.si/pyopus/) is a library for simulation-based optimization with circuits in mind. Among its Python modules is a convenient interface to Ngspice.
 ## py4spice
 Interaction with Ngspice from the Colab notebook is faciliated by the [py4spice](https://pypi.org/project/py4spice/) Python package available from [PyPI](https://pypi.org/).
 ## Usage
@@ -24,6 +26,7 @@ It is best to go through the notebooks in the order below, as each one introduce
 | [divider.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/divider/divider.ipynb) | Simple resistor divider| Ngspice introduction, py4spice introduction, condensed output |
 | [rlc.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/rlc/rlc.ipynb)| Parallel RLC | plotting introduction |
 | [rlc_widgets.ipynb](https://github.com/astorguy/learn_ngspice/blob/main/notebooks/rlc_widgets/rlc_widgets.ipynb) | Interactive parallel RLC | slider widgets, interactive plot, looping Nspice simulation |
+
 
 
 

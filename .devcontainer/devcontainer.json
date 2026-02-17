@@ -23,8 +23,7 @@
       ]
     }
   },
-
-  // "postCreateCommand": "pip3 install --user --upgrade pip && pip3 install --user ipykernel notebook matplotlib",
+  "postCreateCommand": "pip3 install --user --upgrade pip && pip3 install --user -r requirements.txt",
 
   "remoteUser": "vscode"
 }
